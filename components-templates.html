@@ -1,0 +1,67 @@
+<template id="my-todo-template">
+    <style>
+        :host {
+            background: red;
+            display: block;
+            background: white;
+            padding: 30px;
+        }
+    </style>
+    <p>Todo app</p>
+    <my-form-component></my-form-component>
+    <my-items-component></my-items-component>
+</template>
+
+<template id="my-form-template">
+    <style>
+        input {
+            padding: 5px 3px;
+        }
+        button {
+            padding: 7px;
+        }
+    </style>
+    <input type="text" placeholder="Add a todo item" />
+    <button type="submit">add</button>
+</template>
+
+<template id="my-items-template">
+    <style>
+        ul {
+            border-top: 1px solid #CCC;
+            padding: 10px 0 0 0;
+        }
+    </style>
+    <ul></ul>
+</template>
+
+<template id="my-item-template">
+    <style>
+        li {
+            font-size: 0.8rem;    
+            color: lightslategrey;
+            list-style: none;
+            padding: 10px 0; 
+            display: flex;
+            justify-content: space-between;  
+            align-items: center;              
+        }
+        button {
+            height: 23px;
+            width: 23px;
+            border-radius: 50%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            background: lightcoral;
+            color: white;
+        }
+        .done {
+            text-decoration: line-through;
+        }
+    </style>
+    <li>
+        <span></span>
+        <button>x</button>
+    </li>
+</template>
