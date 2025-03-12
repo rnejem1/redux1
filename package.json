@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@webcomponents": "https://github.com/webcomponents/webcomponentsjs.git",
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^3.0.0",
     "browser-sync-webpack-plugin": "^1.2.0",
     "clean-webpack-plugin": "^0.1.17",
     "copy-webpack-plugin": "^4.1.0",
